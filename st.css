@@ -30,7 +30,7 @@ body
 {
     background: #7cdedc;
     text-align: center;
-    background-size:contain;
+    background-size:auto;
     color: #bc3e1ec3;
     
 }
