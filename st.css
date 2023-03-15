@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding:0;
+}
+html{
+    font-size: 62.5%;
+
+}
+body
+{
+    background-color:#ffffff;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo
+{
+    float: left;
+    margin-left: 0.7rem;
+	height: 9rem;;
+    cursor: pointer;
+	padding:0px 3rem;   
+}
+.heading
+{
+    text-align:match-parent;
+    height: 2rem;
+    font-size: 3.5rem;   
+
+}
+.class
+{
+    background: #37d4aa;
+    text-align: center;
+    background-size: auto;
+    color: #030303fc;
+    
+}
+.class ul
+{
+    display: inline-flex;  
+}
+
+.class ul li
+{   
+    list-style: none;
+    width: 12rem;
+    margin: 1.9rem;
+    padding: 1.5rem;
+}
+.class ul li:hover
+{
+    background:#e5eb88;
+    border-radius: 1rem;
+}
+.class ul li a
+{
+    text-decoration: none;
+    font-weight: 100;
+    color:#232323;
+    font-size:20;
+}
+.class ul li a:hover
+{
+    color: #040404;
+}
+.menu-1
+{
+    display: none;
+}
+.class ul li:hover .menu-1
+{ 
+    display: block;
+    position: absolute;
+    background: #ffba8f;
+    margin-top: 1rem;
+    margin-left: -1.5rem;
+    border-radius: 1.5rem; 
+    color: #0c9089;
+}
+.class ul li:hover .menu-1 ul
+{
+    display: block;
+}
+.class ul li:hover .menu-1 ul li
+{
+    width:12rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 0.1rem dotted #000;
+    border-radius: 1px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.menu-1 ul li a
+{
+    font-size: 1.5rem;
+}
+.menu-1 ul li a:hover
+{
+    font-size: 1.8rem;
+}
+.class ul li:hover .menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+
+.menu-1 ul li:hover .sem ul
+{
+    display:block;
+    margin-left: 1rem;   
+}
+
+@media(max-width:998px) {
+    html{
+        font-size: 46%;
+    }
+}
+@media(max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+}
